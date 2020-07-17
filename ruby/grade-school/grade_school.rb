@@ -6,7 +6,6 @@ class School
   def add(name, grade)
     @students_hash[grade] << name
     @students_hash[grade].sort!
-    # @students_hash[grade].push(name)
   end
 
   def students(n)
